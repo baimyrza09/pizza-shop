@@ -1,0 +1,41 @@
+@import "../../helpers/mixins.scss";
+
+.cart {
+    @include center-y;
+    background: #fe5f1e;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 15px 23px;
+
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &__price {
+        .rub {
+            margin-left: 5px;
+            line-height: 5px;
+            width: 0.4em;
+            border-bottom: 1px solid #fff;
+            display: inline-block;
+        }
+    }
+
+    &__divider {
+        background: rgba(255, 255, 255, 0.25);
+        margin: 0 13px;
+        width: 1px;
+        height: 25px;
+    }
+
+    &__quantity {
+        display: flex;
+
+        img {
+            margin-right: 7px;
+        }
+    }
+}

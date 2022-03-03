@@ -1,0 +1,102 @@
+@import "../../helpers/mixins.scss";
+
+.cart-page {
+    padding: 30px;
+
+    &__content {
+        @include center-xy;
+        flex-direction: column;
+        margin: 80px 0;
+    }
+
+    &__title {
+        @include center-y;
+        width: 70%;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #f4f4f4;
+
+        &-cart {
+            @include center-y;
+
+            img {
+                margin-right: 10px;
+            }
+
+            div {
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 39px;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        &-clear {
+            @include clear-default-btn;
+            @include center-y;
+
+            &:hover {
+                svg path {
+                    stroke: #fe5f1e;
+                }
+
+                div {
+                    color: #fe5f1e;
+                }
+            }
+
+            svg {
+                margin-right: 5px;
+                width: 20px;
+                height: 20px;
+                fill: none;
+            }
+
+            div {
+                font-size: 16px;
+                line-height: 19px;
+                color: #b6b6b6;
+            }
+        }
+    }
+
+    &__products {
+        width: 70%;
+    }
+
+    &__stats {
+        width: 70%;
+        @include center-y;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        &-totalQuantity,
+        &-totalPrice {
+            @include center-y;
+            font-size: 22px;
+            line-height: 27px;
+            letter-spacing: 0.01em;
+        }
+
+        &-totalQuantity {
+            .amount {
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        }
+
+        &-totalPrice {
+            .price {
+                color: #fe5f1e;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    &__buttons {
+        width: 70%;
+        @include center-y;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+}

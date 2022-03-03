@@ -1,0 +1,55 @@
+.main {
+    padding: 30px;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    &__content {
+        padding: 30px 0;
+        border-top: 1px solid #f7f7f7;
+
+        &-title {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            letter-spacing: 0.01em;
+            margin-bottom: 35px;
+        }
+
+        &-products {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-sorting {
+            .ui.dropdown .menu {
+                left: -50px;
+            }
+        }
+
+        &-dropdown {
+            color: #fe5f1e !important;
+            letter-spacing: 0.015em;
+
+            .item:hover {
+                .text {
+                    color: #fe5f1e !important;
+                }
+            }
+
+            .selected.item {
+                color: #fe5f1e !important;
+            }
+        }
+    }
+}

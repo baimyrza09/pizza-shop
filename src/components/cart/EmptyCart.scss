@@ -1,0 +1,41 @@
+@import "../../helpers/mixins.scss";
+
+.empty-cart {
+    &__title {
+        @include center-xy;
+
+        div {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            letter-spacing: 0.01em;
+            margin-right: 10px;
+        }
+    }
+
+    &__subtitle {
+        @include center-xy;
+        flex-direction: column;
+        font-size: 18px;
+        line-height: 145.4%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #777777;
+        margin-top: 10px;
+
+        p {
+            margin: 0 0 5px 0;
+            padding: 0;
+        }
+    }
+
+    &__buyer {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    &__btn {
+        @include center-xy;
+        margin-top: 30px;
+    }
+}

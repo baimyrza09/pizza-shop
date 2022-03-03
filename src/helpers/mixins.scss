@@ -1,0 +1,36 @@
+@mixin clear-default-btn {
+    border: 0;
+    background: 0;
+    cursor: pointer;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+@mixin pizza-options-btn {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #2c2c2c;
+    padding: 7px 0;
+}
+
+@mixin center-xy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin center-y {
+    display: flex;
+    align-items: center;
+}
+
+@mixin active_button {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}

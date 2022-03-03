@@ -1,0 +1,68 @@
+    {
+        "pizzas": [
+            {
+                "id": "1",
+                "title": "Чизбургер-пицца",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/3f185c2b-8c34-4ac6-93b6-f24bd5437073.jpg",
+                "category": "Мясные",
+                "price": 395,
+                "orders": 10
+            },
+            {
+                "id": "2",
+                "title": "Сырная",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/8249102f-5a5f-471b-a426-a91cd4e05cc7.jpg",
+                "category": "Вегетарианская",
+                "price": 450,
+                "orders": 5
+            },
+            {
+                "id": "3",
+                "title": "Цыпленок барбекю",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/d3804bb7-dc03-4ab5-8d86-9bf3f009ae7b.jpg",
+                "category": "Гриль",
+                "price": 290,
+                "orders": 3
+            },
+            {
+                "id": "4",
+                "title": "Сырный цыпленок",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/f3c8debad7274e61991dc466ec263fbc_292x292.jpeg",
+                "category": "Мясные",
+                "price": 385,
+                "orders": 1
+            },
+            {
+                "id": "5",
+                "title": "Гавайская",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/a67c903c-d301-4bed-8794-3cc0bba22948.jpg",
+                "category": "Закрытые",
+                "price": 500,
+                "orders": 36
+            },
+            {
+                "id": "6",
+                "title": "Мексиканская",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/a9c82787-c1a1-4016-84d8-92eac76d4ad3.jpg",
+                "category": "Острые",
+                "price": 425,
+                "orders": 25
+            },
+            {
+                "id": "7",
+                "title": "Четыре сезона",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/3a72f973-ce4c-45fd-95d8-76d0b5a3d1a8.jpg",
+                "category": "Закрытые",
+                "price": 300,
+                "orders": 46
+            },
+            {
+                "id": "8",
+                "title": "Двойная пепперони",
+                "img": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/c423dd35-afea-4acf-8a11-a98441cddf35.jpg",
+                "category": "Острые",
+                "price": 250,
+                "orders": 21
+            }
+        ]
+    }
